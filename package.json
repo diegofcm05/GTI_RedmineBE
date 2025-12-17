@@ -1,0 +1,19 @@
+{
+  "name": "tickets-backend",
+  "version": "1.0.0",
+  "description": "Backend para sistema de tickets usando Redmine",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2"
+  }
+}
